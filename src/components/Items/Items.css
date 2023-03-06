@@ -1,0 +1,84 @@
+.items {
+    display: flex;
+    flex-wrap: nowrap;
+    flex-direction: row;
+    justify-content: center;
+    gap: 16px;
+    padding-bottom: 120px;
+}
+
+
+.homes__button {
+    position: absolute;
+    transform: translate(20.5em, -22.5em);
+}
+
+.title {
+    font-family: Roboto, serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 24px;
+    line-height: 28px;
+    color: #3077c6;
+    margin-top: 20px;
+}
+
+.img {
+    width: 296px;
+    height: 296px;
+}
+
+.homes__button-tablet {
+    display: none;
+}
+
+.homes__button-mobile,
+.destinations__button-mobile {
+    display: none;
+}
+
+.subtitle {
+    font-family: Roboto, serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 24px;
+    line-height: 28px;
+    color: #bfbfbf;
+    margin-top: 24px;
+}
+
+.button {
+    position: absolute;
+    display: inline-block;
+    border: none;
+    border-radius: 20px;
+    width: 40px;
+    height: 40px;
+    cursor: pointer;
+    background-image: url('../../../public/icons/arrow.svg');
+    background-repeat: no-repeat;
+    background-position: center;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
+}
+
+.button-forward{
+    transform: translate(46.5em, 9.5em);
+}
+
+
+.button-back{
+    transform: translate(-46.5em, 9.5em) rotate(180deg);
+}
+
+.hidden {
+    display: none;
+}
+
+
+@media (max-width: 1024px) {
+    /* For mobile tablets: */
+
+    .items {
+        padding-bottom: 40px;
+    }
+}
