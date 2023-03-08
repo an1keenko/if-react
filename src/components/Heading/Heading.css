@@ -1,0 +1,25 @@
+@import '../../css/fonts.css';
+
+.heading {
+    margin: 0;
+    text-align: center;
+    padding-top: 120px;
+    padding-bottom: 105px;
+    font-family: Roboto, serif;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 40px;
+    line-height: 47px;
+    color: #383838;
+}
+
+@media (max-width: 1024px) {
+    /* For mobile tablets: */
+
+    .heading {
+        font-size: 28px;
+        line-height: 33px;
+        padding-top: 40px;
+        padding-bottom: 32px;
+    }
+}
