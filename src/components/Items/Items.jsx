@@ -17,5 +17,5 @@ export const Items = ({data}) => {
         ))}
       <button className={`button button-forward ${value === 4 ? "hidden" : ""}`} disabled={value === 4} onClick={() => setValue(value + 1)}/>
       </div>
-    </>)
+    </>);
 };

@@ -1,3 +1,5 @@
+@import '../../css/fonts.css';
+
 .items {
     display: flex;
     flex-wrap: nowrap;
